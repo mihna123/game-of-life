@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+div.cell {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+div.cell:hover {
+    background-color: gray;
+}
+
+div.cell-on {
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
